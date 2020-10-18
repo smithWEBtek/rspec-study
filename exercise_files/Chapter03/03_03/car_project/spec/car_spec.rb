@@ -7,7 +7,7 @@ describe 'Car' do
     it "allows reading and writing for :make" do
       car = Car.new
       car.make = 'Test'
-      expect(car.make).to eq('Test')
+      expect(car.make).to eq('Tes')
     end
     
     it "allows reading and writing for :year" do

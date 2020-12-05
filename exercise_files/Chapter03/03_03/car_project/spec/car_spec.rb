@@ -10,6 +10,13 @@ describe 'Car' do
       expect(car.make).to eq('Tes')
     end
     
+    
+    it "allows reading and writing for :make" do
+      car = Car.new
+      car.make = 'Test'
+      expect(car.make).to eq('Tes')
+    end
+    
     it "allows reading and writing for :year" do
       car = Car.new
       car.year = 9999
